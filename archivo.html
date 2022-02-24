@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/procesa" name="forma01">
+        <input type="text" name="clave" placeholder="clave"/>
+        <br/>
+        <input type="password" name="passw" placeholder="contraseña"/>
+        <br/>
+        <input type="submit" value="Enviar"/>
+        <br>
+    </form>
+    <br>
+
+    <form method="post" action="/buscaactor" name="forma02">
+        <input type="text" name="nombreactor" placeholder="escribe el nombre del actor"/>
+        <br/>
+        <input type="submit" value="Enviar"/>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Crear nuevo usuario -->
+    <h2>Crear Usuario | Consulta</h2>
+    <form method="post" action="/crearusuario" name="create_usuario_form">
+        <input type="text" name="nombre" placeholder="Nombre"/>
+        <br/>
+        <input type="text" name="apellido" placeholder="Apellido"/>
+        <br/>
+        <input type="text" name="clave" placeholder="Clave"/>
+        <br/>
+        <input type="text" name="password" placeholder="Password"/>
+        <br/>
+        <input type="text" name="status" placeholder="Status"/>
+        <br/>
+        <input type="text" name="id_sucursal" placeholder="Sucursal"/>
+        <br/>
+        <input type="text" name="id_puesto" placeholder="Puesto"/>
+        <br/>
+        <input type="text" name="id_area" placeholder="Area"/>
+        <br/>
+        <input type="submit" value="Enviar"/>
+    </form>
+
+
+</body>
+</html>
