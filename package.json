@@ -13,10 +13,11 @@
     "webservices"
   ],
   "author": "Carlos Javier Diaz Flores",
-  "license": "ISC",
+  "license": "GPL",
   "dependencies": {
     "express": "^4.17.3",
     "pg": "^8.7.3",
+    "readme-md-generator": "^1.0.0",
     "sequelize": "^6.16.2"
   }
 }
